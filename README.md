@@ -1,4 +1,4 @@
-# ResilientDB-Ag-GraphQL-Wrapper
+# ResilientDB-Ag-GraphQL
 
 This project serves as a GraphQL wrapper for the existing [GraphQL APIs](https://github.com/apache/incubator-resilientdb-graphql), providing specific APIs used for Agricultural applications.
 
@@ -38,24 +38,24 @@ In addition to the existing base APIs on the [ResilientDB GraphQL server](https:
 
 **Query: getProductStages**
 
-Retrieves the list of stages through which a product progresses before reaching its final form.
+* Retrieves the list of stages through which a product progresses before reaching its final form.
 
-    query {
-    getProductStages(productName: String!) {
-                    id
-                    version
-                    metadata
-                    operation
-                    asset
-                    publicKey
-                    uri
-                    type
-    }
-    }
+   ```bash
+     query {
+       getProductStages(productName: String!) {
+                       id
+                       version
+                       metadata
+                       operation
+                       asset
+                       publicKey
+                       uri
+                       type
+       }
+       }
+
 
 args: productName(Required)
-
-
 
 ## Contributing
 
