@@ -17,7 +17,6 @@ This project serves as a GraphQL wrapper for the existing [GraphQL APIs](https:/
    ```bash
    git clone https://github.com/Amoolya-Reddy/ResilientDB-Ag-GraphQL-Wrapper
 
-
 2. Install Dependencies:
 
    ```bash
