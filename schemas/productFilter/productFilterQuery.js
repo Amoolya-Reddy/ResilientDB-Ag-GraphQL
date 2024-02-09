@@ -9,8 +9,8 @@ const productFilterQuery = gql`
 
   type Transaction {
     id: ID!
-    version: Float!
-    metadata: String!
+    version: String!
+    metadata: String
     operation: String!
     asset: String!
     publicKey: String!
